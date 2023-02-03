@@ -2,6 +2,9 @@ import React from "react";
 import { Age } from "./Age";
 
 export class Welcome extends React.Component {
+  static defaultProps = {
+    name: "Adel",
+  };
   render() {
     return (
       <div>
@@ -11,7 +14,3 @@ export class Welcome extends React.Component {
     );
   }
 }
-
-Welcome.defaultProps = {
-  name: "Adel",
-};
