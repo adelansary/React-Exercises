@@ -4,6 +4,7 @@ import { ClickTracker } from "./ClickTracker";
 import { Counter } from "./Counter";
 import { Hello } from "./Hello";
 import { InteractiveWelcome } from "./InteractiveWelcome";
+import { Login } from "./Login";
 import { Welcome } from "./Welcome";
 
 export class App extends React.Component {
@@ -11,11 +12,12 @@ export class App extends React.Component {
     return (
       <div>
         <Hello />
-        <Welcome name="Adel" />
+        <Welcome name="Ahmad" />
         <Counter initialValue={2} incrementAmount={3} incrementInterval={300} />
         <ClickCounter />
         <ClickTracker />
         <InteractiveWelcome />
+        <Login />
       </div>
     );
   }
