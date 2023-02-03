@@ -8,10 +8,6 @@ import { Login } from "./Login";
 import { Welcome } from "./Welcome";
 
 export class App extends React.Component {
-  onLogin(state) {
-    console.log(state);
-  }
-
   render() {
     return (
       <div>
@@ -21,7 +17,7 @@ export class App extends React.Component {
         <ClickCounter />
         <ClickTracker />
         <InteractiveWelcome />
-        <Login passingFunction={this.onLogin} />
+        <Login />
       </div>
     );
   }
