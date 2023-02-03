@@ -1,14 +1,14 @@
 import React from "react";
-import { Hello } from "./Hello";
-import { Welcome } from "./Welcome";
+import {Hello} from "./Hello";
+import {Welcome} from "./Welcome";
 
-export class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Hello />
-        <Welcome name="Abed" />
-      </div>
-    );
-  }
+export class App extends React.Component{
+    render(){
+        return (
+        <div>
+            <Hello /> 
+            <Welcome />
+        </div>
+        )
+    }
 }
