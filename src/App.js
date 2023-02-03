@@ -18,7 +18,7 @@ export class App extends React.Component {
     return (
       <div>
         <Hello />
-        <Welcome name="Abed" />
+        <Welcome name="Ahmad" />
         <Counter initialValue={2} incrementAmount={3} incrementInterval={300} />
         <ClickCounter />
         <ClickTracker />
