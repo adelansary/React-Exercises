@@ -17,7 +17,7 @@ export class InteractiveWelcome extends React.Component {
   render() {
     return (
       <>
-        <label for="name">Insert name: </label>
+        <label for="name">Insert your name: </label>
         <input
           name="WelcomeName"
           onChange={this.inputNameHandler}
